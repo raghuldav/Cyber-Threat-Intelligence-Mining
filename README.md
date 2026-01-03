@@ -1,74 +1,88 @@
-# CYBER-THREAT-INTELLIGENCE-MINING-FOR-ORGANIZATIONAL-CYBERSECURITY-RESILIENCE
-<h1>CTI Mining Using Machine Learning and Data Science</h1>
+# Cyber Threat Intelligence Mining for Organizational Cybersecurity Resilience
 
-<h2>Description</h2>
-Due to the rapid advancement in technology, the severity of cyber attack has also escalated rapidly. To combat the cyber attack we have utilized CTI mining technique. The process of cyber threat intelligence (CTI) mining using machine learning (ML) involves several critical stages. The main aim of our project is to use CTI mining technique to find insights out of the pre existing data and train the machine learning model accordingly to find attacks in the future. 
+## Overview
+The rapid evolution of digital technologies has significantly increased both the frequency and sophistication of cyberattacks. Traditional cybersecurity solutions are often limited to identifying whether an attack has occurred, without providing deeper insights into the **nature or category of the attack**.
 
-Initially, data is collected from various sources such as network logs, endpoint devices, and threat intelligence feeds. This data undergoes preprocessing to standardize formats and clean noise, ensuring quality inputs for analysis.
+This project focuses on **Cyber Threat Intelligence (CTI) Mining** using **Machine Learning and Data Science** techniques to analyze historical cybersecurity data, extract meaningful intelligence, and proactively classify cyber threats. The system is designed not only to detect malicious activity but also to **identify the specific type of cyberattack**, enabling organizations to take faster and more informed defensive actions.
 
-Next, ML techniques like KNN (K-Nearest Neighbors), Random Forest, and Logistic Regression were applied. These Supervised learning models are trained on labeled datasets to classify and predict threats based on historical patterns, where we achieved the accuracy of 99.99% using Random Forest model, 97% accuracy with KNN model . 
+---
 
-The pre-existing applications can only detect if the attack has happened or not, but our project aims in providing organizations with the type of attacks happened. The attacks include: DOS attack, Phishing attack, Ransomware Attack, SQL Injection attack, Spyware attack and Man in the middle attack.
+## Project Description
+Cyber threat data is collected from multiple sources, including network logs, endpoint systems, and threat intelligence feeds. The collected data undergoes preprocessing steps such as data cleaning, noise removal, and feature standardization to ensure high-quality inputs for model training.
 
-<br />
+Several supervised machine learning models were implemented and evaluated, including **Random Forest**, **K-Nearest Neighbors (KNN)**, and **Logistic Regression**. These models were trained on labeled datasets to learn historical attack patterns and predict future threats.
 
+Among the evaluated models:
+- **Random Forest** achieved an accuracy of **99.99%**
+- **K-Nearest Neighbors (KNN)** achieved an accuracy of **97%**
 
-<h2>Languages and Utilities Used</h2>
+The results demonstrate the effectiveness of machine learning-based CTI mining in enhancing cybersecurity resilience.
 
-- <b>Python</b>
-- <b>HTML</b>
-- <b>CSS</b>
-- <b>Numpy</b>
-- <b>Pandas</b>
-- <b>Scikit-Learn</b>
-- <b>Matplotlib</b>
-- <b>Random Forest Classifier</b>
-- <b>K-Neighbors Classifier</b>
-- <b>Logistic Regression</b> 
+---
 
-<h2>Environments Used </h2>
+## Attack Types Classified
+The system is capable of identifying and classifying the following cyberattacks:
+- Denial of Service (DoS)
+- Phishing Attacks
+- Ransomware Attacks
+- SQL Injection Attacks
+- Spyware Attacks
+- Man-in-the-Middle (MITM) Attacks
 
-- <b>Windows 10</b> (21H2)
-- <b>Anaconda, Visual Studio, Jupyter Notebook IDE</b>
-- <b>Hard Disk 500GB</b>
-- <b>RAM 8GB</b> 
+---
 
-<h2>Program walk-through:</h2>
+## Technologies Used
+- **Programming Language:** Python  
+- **Web Technologies:** HTML, CSS  
+- **Libraries & Frameworks:**  
+  - NumPy  
+  - Pandas  
+  - Scikit-learn  
+  - Matplotlib  
+- **Machine Learning Models:**  
+  - Random Forest Classifier  
+  - K-Nearest Neighbors (KNN)  
+  - Logistic Regression  
+
+---
+
+## Development Environment
+- **Operating System:** Windows 10 (21H2)  
+- **Tools & IDEs:** Anaconda, Visual Studio Code, Jupyter Notebook  
+- **Hardware Requirements:**  
+  - 8 GB RAM  
+  - 500 GB Storage  
+
+---
+
+## Application Walkthrough
 
 <p align="center">
-COPY THE PATH: <br/>
-<img src="https://imgur.com/SYR8KKO.jpg"height="80%" width="80%" alt="Path"/>
-<br />
-<br />
-OPEN ANACONDA PROMPT, PASTE THE PATH AND RUN:  <br/>
-<img src="https://imgur.com/eWq5Wj9.jpg""height="80%" width="80%" alt="Run the web page"/>
-<br />
-<br />
-OPEN A NEW TAB AND PASTE THE ADDRESS (HOME PAGE): <br/>
-<img src="https://imgur.com/ZghkuiQ.jpg""height="80%" width="80%" alt="Home Page"/>
-<br />
-<br />
-CREATE AN ACCOUNT:  <br/>
-<img src="https://imgur.com/0zxcqmK.jpg""height="80%" width="80%" alt="Signup Page"/>
-<br />
-<br />
-LOGIN PAGE:  <br/>
-<img src="https://imgur.com/6FhYkP6.jpg""height="80%" width="80%" alt="Signin Page"/>
-<br />
-<br />
-PREDICTION PAGE:  <br/>
-<img src="https://imgur.com/lcf5qs4.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
+<b>Step 1: Copy the Project Path</b><br/>
+<img src="https://imgur.com/SYR8KKO.jpg" width="80%" alt="Project Path"/>
 
+<br/><br/>
+<b>Step 2: Open Anaconda Prompt, Paste the Path, and Run the Application</b><br/>
+<img src="https://imgur.com/eWq5Wj9.jpg" width="80%" alt="Run Application"/>
+
+<br/><br/>
+<b>Step 3: Open the Application Home Page in Browser</b><br/>
+<img src="https://imgur.com/ZghkuiQ.jpg" width="80%" alt="Home Page"/>
+
+<br/><br/>
+<b>Step 4: Create a New User Account</b><br/>
+<img src="https://imgur.com/0zxcqmK.jpg" width="80%" alt="Signup Page"/>
+
+<br/><br/>
+<b>Step 5: Login to the Application</b><br/>
+<img src="https://imgur.com/6FhYkP6.jpg" width="80%" alt="Signin Page"/>
+
+<br/><br/>
+<b>Step 6: Access the Threat Prediction Interface</b><br/>
+<img src="https://imgur.com/lcf5qs4.jpg" width="80%" alt="Prediction Page"/>
 </p>
 
-<!--
- ```diff
-- text in red
-+ text in green
-! text in orange
-# text in gray
-@@ text in purple (and bold)@@
-```
---!>
+---
+
+## Conclusion
+This project demonstrates how Cyber Threat Intelligence mining combined with machine learning can significantly improve an organization’s ability to detect, classify, and respond to cyber threats. By moving beyond simple detection and enabling attack-type classification, the system provides actionable intelligence that enhances overall cybersecurity resilience.
